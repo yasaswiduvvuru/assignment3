@@ -1,5 +1,5 @@
 <?php 
-
+include('/Student.php');
 class StudentInfo extends Student
 {
 	protected $GPA;
