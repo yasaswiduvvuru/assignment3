@@ -1,6 +1,6 @@
 <?php 
-include('/Student');
-include('/StudentInfo');
+include('/Student.php');
+include('/StudentInfo.php');
 
 $stud1 = new StudentInfo('George', 'Miller', 'gcm15', 31094832, 3.64, 103, 'Computer Engineering');
 $stud2 = new StudentInfo('Patty', 'Smith', 'pos4', 31954012, 3.96, 74, 'Chemical Engineering');
