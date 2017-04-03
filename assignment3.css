@@ -1,1 +1,14 @@
 /*styles for assignment 3*/
+
+h1 {
+ color: blue;
+ font-family: monospace;
+ background-color: orange;
+}
+
+table {
+  color: green;
+  font-family: monospace;
+  background-color: purple;
+  width: 100%;
+}
