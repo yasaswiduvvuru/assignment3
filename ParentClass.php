@@ -15,6 +15,11 @@ class Student
 		$this->$peoplesoft = $peoplesoft;
 	}
 	
+	public function __toString()
+	{
+		echo 'Student ' . $this->$first . ' ' . $this->$last .  ' username is ' . $this.$username . " and his/her Peoplesoft Number is " . $this.$peoplesoft;
+	}
+	
 	public function getFirstName()
 	{
 		return $this->$first;	
